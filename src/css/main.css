@@ -147,7 +147,19 @@ section {
 }
 
 .first {
-    height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #video-background {
@@ -194,6 +206,12 @@ section {
   background-repeat: no-repeat;
 }
 
+.tagline {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+}
 
 
 
