@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,7 +21,22 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+        <section class="first" id="first">
+            <video autoplay loop id="video-background" muted>
+                <source src="videos/loop.mp4" type="video/mp4">
+            </video>
+            <ul class="menu">
+                <li><a class="logo" href="#first"></a></li>
+                <li><a class="anchor" href="#">Team</a></li>
+                <li><a class="anchor" href="#">Description</a></li>
+                <li><a class="anchor" href="#">Advantages</a></li>
+            </ul>
+        </section>
+
+
+
+
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
