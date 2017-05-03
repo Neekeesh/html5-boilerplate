@@ -147,6 +147,7 @@ section {
 }
 
 .first {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -168,7 +169,7 @@ section {
 }
 
 #video-background {
-  position: fixed;
+  position: absolute;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -176,6 +177,10 @@ section {
   width: auto; 
   height: auto;
   z-index: -100;
+}
+
+#laptop {
+  width: 100%;
 }
 
 .menu {
@@ -250,9 +255,39 @@ section {
   margin-top: 80px;
 }
 
+.content {
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.left {
+  display: block;
+  width: 50%;
+  float: left;
+  height: 400px;
+}
 
+.right {
+  width: 50%;
+  float: right;
+}
 
+.description {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.button.video {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.button.video:hover {
+  background-image: -webkit-linear-gradient(45deg, #69f, #e28dff);
+  background-image: linear-gradient(45deg, #69f, #e28dff);
+}
 
 /* ==========================================================================
    Helper classes
